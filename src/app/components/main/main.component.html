@@ -1,0 +1,206 @@
+<header>
+    <img id="smartfit_logo" src="../../../assets/images/logo.svg" alt="Logo Smart Fit">
+</header>
+
+<section>
+    <div class="main-header">
+        <h1 class="title">REABERTURA</h1>
+        <h1 class="title">SMART FIT</h1>
+        <p class="header-paragraph">O horário de funcionamento das nossas unidades está seguindo os decretos de cada município. Por isso, confira aqui se a sua unidade está aberta e as medidas de segurança que estamos seguindo.</p>
+    </div>
+    <main>
+        <div class="main-card">
+            <div class="hour">
+                <img src="../../../assets/images/icon-hour.png" alt="horário" style="width: 30px;">
+                <span>Horário</span>
+            </div>
+
+            <div class="period-select">
+                <span class="period-title">Qual período quer treinar?</span>
+                <hr class="hr-card">
+                <ul class="period-list">
+                    <li class="period-item">
+                        <div class="turn">
+                            <input type="radio" name="period" id="period">
+                            <span>Manhã</span>
+                        </div>
+                        <span>06:00 às 12:00</span>
+                    </li>
+
+                    <li class="period-item">
+                        <div class="turn">
+                            <input type="radio" name="period" id="period">
+                            <span>Tarde</span>
+                        </div>
+                        <span>12:01 às 18:00</span>
+                    </li>
+
+                    <li class="period-item">
+                        <div class="turn">
+                            <input type="radio" name="period" id="period">
+                            <span>Noite</span>
+                        </div>
+                        <span>18:01 às 23:00</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-footer">
+                <div class="card-info">
+                    <div class="closed-units">
+                        <input type="checkbox" name="closed" id="closed">
+                        <label>Exibir unidades fechadas</label>
+                    </div>
+    
+                    <div class="results-found">
+                        <span>Resultados encontrados: </span>
+                        <h3 class="result">0</h3>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button class="btn btn-yellow">ENCONTRAR UNIDADE</button>
+                    <button class="btn btn-white">LIMPAR</button>
+                </div>
+            </div>
+        </div>
+        <div class="legend">
+            <div class="legend-list">
+                <div class="legend-item">
+                    <span class="legend-title">Máscara</span>
+                    <div class="two-items">
+                        <div class="one-item">
+                            <img src="../../../assets/images/required-mask.png" alt="Máscara obrigatória" class="legend-img">
+                            <span>Obrigatório</span>
+                        </div>
+                        <div class="one-item">
+                            <img src="../../../assets/images/recommended-mask.png" alt="Máscara recomendada" class="legend-img">
+                            <span>Recomendado</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-title">Toalha</span>
+                    <div class="two-items">
+                        <div class="one-item">
+                            <img src="../../../assets/images/required-towel.png" alt="Toalha obrigatória" class="legend-img">
+                            <span>Obrigatório</span>
+                        </div>
+                        <div class="one-item">
+                            <img src="../../../assets/images/recommended-towel.png" alt="Toalha recomendada" class="legend-img">
+                            <span>Recomendado</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-title">Bebedouro</span>
+                    <div class="two-items">
+                        <div class="one-item">
+                            <img src="../../../assets/images/partial-fountain.png" alt="Bebedouro parcial" class="legend-img">
+                            <span>Parcial</span>
+                        </div>
+                        <div class="one-item">
+                            <img src="../../../assets/images/forbidden-fountain.png" alt="Bebedouro proibido" class="legend-img">
+                            <span>Proibido</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-title">Vestiários</span>
+                    <div class="two-items">
+                        <div class="one-item">
+                            <img src="../../../assets/images/required-lockerroom.png" alt="Vestiário liberado" class="legend-img">
+                            <span>Liberado</span>
+                        </div>
+                        <div class="one-item">
+                            <img src="../../../assets/images/partial-lockerroom.png" alt="Vestiário parcial" class="legend-img">
+                            <span>Parcial</span>
+                        </div>
+                        <div class="one-item">
+                            <img src="../../../assets/images/forbidden-lockerroom.png" alt="Vestiário fechado" class="legend-img">
+                            <span>Fechado</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="results">
+        <ul id="results-list">
+            <li class="result-item">
+                <span class="status">
+                    Aberto
+                </span>
+                <div class="item-info">
+                    <span class="local">Vicente Linhares</span>
+                    <div class="address">
+                        <span>Rua Tibúrcio Cavalcante, 1885 - Meireles</span>
+                        <p class="city">Fortaleza, CE</p>
+                    </div>
+                    <hr>
+                    <div class="unit-legend">
+                        <img src="../../../assets/images/required-mask.png" class="unit-img">
+                        <img src="../../../assets/images/required-towel.png" class="unit-img">
+                        <img src="../../../assets/images/partial-fountain.png" alt="" class="unit-img">
+                        <img src="../../../assets/images/forbidden-lockerroom.png" alt="" class="unit-img">
+                    </div>
+                    <div class="unit-hours">
+                        <div class="available-hour">
+                            <h4 class="unit-weekday">Seg. à Sex.</h4>
+                            <span>06h às 22h</span>
+                        </div>
+                        <div class="available-hour">
+                            <h4 class="unit-weekday">Sáb.</h4>
+                            <span>09h às 18h</span>
+                        </div>
+                        <div class="available-hour">
+                            <h4 class="unit-weekday">Dom.</h4>
+                            <span>Fechada</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="result-item">
+                <span class="status">
+                    Fechado
+                </span>
+                <div class="item-info">
+                    <span class="local">Vila Carrão</span>
+                    <div class="address">
+                        <span>Av. Guilherme Giorgi, 1460, Vila Carrão,</span>
+                        <p class="city">São Paulo - SP</p>
+                    </div>
+                    <div class="unit-legend">
+                        <hr>
+
+                    </div>
+                    <div class="unit-hours">
+                        
+                    </div>
+                </div>
+            </li>
+            <li class="result-item">
+                <span class="status">
+                    Fechado
+                </span>
+                <div class="item-info">
+                    <span class="local">Vila Carrão</span>
+                    <div class="address">
+                        <span>Av. Guilherme Giorgi, 1460, Vila Carrão,</span>
+                        <p class="city">São Paulo - SP</p>
+                    </div>
+                    <div class="unit-legend">
+
+                    </div>
+                    <div class="unit-hours">
+                        
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <img id="footer_logo" src="../../../assets/images/logo.svg" alt="Logo Smart Fit">
+    <span>Todos os direitos reservados - 2020</span>
+</footer>
